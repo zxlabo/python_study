@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+config/config.json
+config/img_upload_*
+config/cluster_*
+config/pic/*
+local/
+.DS_Store
+.config
+.business_cut_tile
+.check_excel_data
