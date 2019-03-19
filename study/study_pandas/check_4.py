@@ -17,9 +17,9 @@ def query_l2_parent(parent_id):
 
 def check():
     sql_list = []
-    sql_query1 = "SELECT id FROM `l2_transport` WHERE `trans_name` ='七堡' and `district_id` =937 and `trans_type` =1 and `level` =8"
-    sql_query2 = "SELECT id FROM `l2_transport` WHERE `trans_name` ='甬江路' and `district_id` =935 and `trans_type` =1 and `level` =8"
-    sql_query3 = "SELECT id FROM `l2_transport` WHERE `trans_name` ='近江' and `district_id` =935 and `trans_type` =1 and `level` =8"
+    sql_query1 = "select * FROM `l2_transport` WHERE `trans_name` ='759路' AND `district_id` =945  AND `trans_type` =4 and `level` =8"
+    sql_query2 = "select * FROM `l2_transport` WHERE `trans_name` ='715路' AND `district_id` =945  AND `trans_type` =4 and `level` =8"
+    sql_query3 = "select * FROM `l2_transport` WHERE `trans_name` ='251路' AND `district_id` =935  AND `trans_type` =4 and `level` =8"
     sql_list.append(sql_query1)
     sql_list.append(sql_query2)
     sql_list.append(sql_query3)
