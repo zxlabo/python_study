@@ -17,12 +17,16 @@ def query_l2_parent(parent_id):
 
 def check():
     sql_list = []
-    sql_query1 = "select * FROM `l2_transport` WHERE `trans_name` ='759路' AND `district_id` =945  AND `trans_type` =4 and `level` =8"
-    sql_query2 = "select * FROM `l2_transport` WHERE `trans_name` ='715路' AND `district_id` =945  AND `trans_type` =4 and `level` =8"
-    sql_query3 = "select * FROM `l2_transport` WHERE `trans_name` ='251路' AND `district_id` =935  AND `trans_type` =4 and `level` =8"
+    sql_query1 = "select * FROM `l2_transport` WHERE `trans_name` ='1001路' AND `district_id` =2373  AND `trans_type` =4 and `level` =8"
+    sql_query2 = "select * FROM `l2_transport` WHERE `trans_name` ='1091路' AND `district_id` =2372  AND `trans_type` =4 and `level` =8"
+    sql_query3 = "select * FROM `l2_transport` WHERE `trans_name` ='10路' AND `district_id` =2372  AND `trans_type` =4 and `level` =8"
+    sql_query4 = "select * FROM `l2_transport` WHERE `trans_name` ='165路' AND `district_id` =2370  AND `trans_type` =4 and `level` =8"
+    sql_query5 = "select * FROM `l2_transport` WHERE `trans_name` ='247路' AND `district_id` =2372  AND `trans_type` =4 and `level` =8"
     sql_list.append(sql_query1)
     sql_list.append(sql_query2)
     sql_list.append(sql_query3)
+    sql_list.append(sql_query4)
+    sql_list.append(sql_query5)
     for sql_query in sql_list:
         trans_list = pd.read_sql_query(sql_query, con=engine).values
         for trans_item in trans_list:
