@@ -1,0 +1,17 @@
+{
+  "oss_ak":"LTAIZWRSn03SpXM9",
+  "oss_as":"xXGKKDZxi7coR8PY0thdFU8NMszNUD",
+  "oss_bk":"client-res-test",
+  "oss_ep":"http://oss-cn-shanghai.aliyuncs.com",
+  "oss_bk_op":"client-res-test",
+  "base_op_url":"http://restest.gongyujia.com",
+  "db_host_spider":"120.26.130.180",
+  "db_user_spider":"root",
+  "db_pwd_spider":"899036c045",
+  "db_host_admin":"120.26.130.180",
+  "db_user_admin":"root",
+  "db_pwd_admin":"899036c045",
+  "db_host_pontus":"rm-uf65b1di3b76cbz0e.mysql.rds.aliyuncs.com",
+  "db_user_pontus":"online_pontus_rw",
+  "db_pwd_pontus":"iYo9999@w"
+}
